@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fuzzing HTML</title>
+    <style>
+        /* CSS Styles */
+        .container {
+            width: 100%;
+            height: 200px;
+            background-color: #f0f0f0;
+        }
+
+        .heading {
+            font-size: 24px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">Welcome to Fuzzing HTML!</h1>
+        <p>This is a sample HTML corpus for fuzzing purposes.</p>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+        <img src="image.jpg" alt="Sample Image">
+        <form action="/submit" method="POST">
+            <input type="text" name="name" placeholder="Enter your name">
+            <input type="email" name="email" placeholder="Enter your email">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script>
+        // JavaScript Code
+        function showAlert() {
+            alert("Fuzzing HTML!");
+        }
+    </script>
+</body>
+</html>
