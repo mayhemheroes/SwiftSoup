@@ -1,0 +1,9 @@
+project: SwiftSoup
+target: fuzz-swift-soup
+testsuite:
+    - file://mayhem/testsuite
+
+cmds:
+  - cmd: /release/SoupFuzz
+    libfuzzer: true
+    timeout: 1
